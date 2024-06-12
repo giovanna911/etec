@@ -1,6 +1,6 @@
 <?php 
     include("functions.php"); 
-    
+
     if (!isset($_SESSION)) session_start();
     if (isset($_SESSION['user'])) { // Verifica se tem um usuário logado
         if (!$_SESSION['user']) {
@@ -19,7 +19,7 @@
 
 ?>
 
-            <h2 class="mt-2">Atualizar Enfermeiros de forma radical</h2>
+            <h2 class="mt-2">Atualizar Enfermeiros</h2>
             <style>
                 label {
                     font-weight: bold;
@@ -60,7 +60,7 @@
                             $foto = "semimagem.png";
                         } else {
                             $foto = $enfermeiros['foto'];
-                            
+
                         }
                     ?>
                     <div class="form-group col">
@@ -71,7 +71,7 @@
                             <button class="btn btn-light text-secondary" type="button" onclick="limparCaminho()" id="btnLimpar"><i class="fa-solid fa-trash"></i></button>
                         </div>                        
                     </div>
-                    
+
                 </div>
 
                 <div class="form-group col-md-6 mt-1">
