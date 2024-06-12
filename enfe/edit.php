@@ -19,7 +19,7 @@
 
 ?>
 
-            <h2 class="mt-2">Atualizar Enfermeiros</h2>
+            <h2 class="mt-2">Atualizar Enfermeiros de forma radical</h2>
             <style>
                 label {
                     font-weight: bold;
