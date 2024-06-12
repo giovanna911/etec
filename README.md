@@ -1,4 +1,4 @@
-# PProjeto ETEC
+# Projeto ETEC
 
 ## Docummentaão de instalação
 1 - Baixe o projeto diretamente do git usando o comando git clone https://github.com/giovanna911/etec.git
