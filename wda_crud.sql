@@ -11,11 +11,11 @@ CREATE TABLE `enfermeiros` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `enfermeiros` (`id`, `nome`, `endereco`, `COREN`, `DataNasc`, `foto`) VALUES
-(1, 'Júlia Harumi Nascimento', 'Rua dos bobos, 43', '00001111', '2005-08-16 ', 'harumi.jpg'),
-(2, 'lucas tiago', 'Rua dos bananas, 999', '00002222', '2008-05-08 ', 'lucas.jpg'),
-(3, 'Kamilly Barbosa', 'Rua dos cantantes, 777', '00003333', '2010-04-18 ', 'kamilly.jpg'),
-(4, 'Hariadny Tacashc', 'Rua dos olhudos, 333', '00004444', '2013-02-28 ', 'hariadny.jpg'),
-(5, 'Giovanna Marina Henrique ', 'Rua dos sem cabelos, 452', '00005555', '2022-05-21 ', 'giovanna.jpg');
+(1, 'Giovanna Henrique', 'Rua Francisca de Queiroz, no bairro Vila Independência, 34', '00001111', '2001-08-16 ', 'enfermeira_gih.jpg'),
+(2, 'Raphael de Oliveira', 'Avenida Domingos Júlio, no bairro Campolim, 999', '00002222', '2002-05-08 ', 'enfermeiro_rapha.jpg'),
+(3, 'Júlio Antonio dos Santos', 'Avenida Caribe, no bairro Jardim América, 777', '00003333', '2000-04-18 ', 'enfermeiro_júio.jpg'),
+(4, 'Hariadny Tacashc', 'Avenida Professor Arthur Fonseca, no bairro Jardim Emília, 333', '00004444', '1990-02-28 ', 'enfermeira_hary.jpg'),
+(5, 'Guilherme August dos Ramos', 'Avenida Engenheiro Carlos Reinaldo Mendes, no bairro Alto da Boa Vista, 452', '00005555', '2001-05-21 ', 'enfermeiro_gui.jpg');
 
 
 CREATE TABLE `customers` (
@@ -38,7 +38,7 @@ CREATE TABLE `customers` (
 
 INSERT INTO `customers` (`id`, `name`, `cpf_cnpj`, `birthdate`, `address`, `hood`, `zip_code`, `city`, `state`, `phone`, `mobile`, `ie`, `created`, `modified`) VALUES
 (1, 'Giovanna Marina Gomes', '123.456.789-22', '2022-04-12 ', 'Rua Peixeira Silva, 452', 'Vila ShawMends', '18080550', 'Sorocaba', 'SP', '30310379', '15996023560', '215524', '2016-05-24 00:00:00', '2023-11-26 02:22:06'),
-(2, 'Haryalba das Neves', '321.654.987-03', '2006-11-18 ', 'Rua Visconde Nóbrega, 895', 'Carlinho Brown', '18080650', 'Sorocaba', 'SP', '30602457', '15991817258', '237705', '2016-05-24 00:00:00', '2023-11-26 02:22:08');
+(2, 'Hariadny das Neves', '321.654.987-03', '2006-11-18 ', 'Rua Visconde Nóbrega, 895', 'Carlinho Brown', '18080650', 'Sorocaba', 'SP', '30602457', '15991817258', '237705', '2016-05-24 00:00:00', '2023-11-26 02:22:08');
 
 
 CREATE TABLE `usuarios` (
@@ -51,7 +51,7 @@ CREATE TABLE `usuarios` (
 
 
 INSERT INTO `usuarios` (`id`, `nome`, `user`, `password`, `foto`) VALUES
-(1, 'admin', 'admin', '$2a$08$Cf1f11ePArKlBJomM0F6a.UFZ6Sp2bbz/FEWdXSFF6hx71tGrjUc.', NULL);
+(1, 'admin', 'admin', '$2a$08$Cf1f11ePArKlBJomM0F6a.UFZ6Sp2bbz/FEWdXSFF6hx71tGrjUc.', 'admin.png');
 
 
 ALTER TABLE `enfermeiros`
